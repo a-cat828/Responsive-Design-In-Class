@@ -1,4 +1,8 @@
+:root{
+    font-size: 15px;
+}
 * {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,4 +14,31 @@ img {
 
 body {
     min-height: 100vh;
+}
+
+a:hover {
+    color: red;
+    font-size: 20px;
+    background-color: green;
+}
+
+a:visited {
+    background-color: rgb(9, 255, 0);
+}
+
+.em{
+font-size: 2em;
+}
+.rem{
+    font-size: 2rem;
+}
+.percent{
+    height: 30%;
+    background-color: blue;
+}
+.vh{
+    font-size: 4vh;
+}
+.vw{
+    font-size: 4vw;
 }
