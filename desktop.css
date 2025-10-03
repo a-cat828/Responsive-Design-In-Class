@@ -1,0 +1,30 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#grid-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+#flex-section {
+    background-color: var(--clr-x-lt-1);
+    color: var(--clr-dk-1);
+}
+
+#flex-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+
+#flex-content p {
+    margin: 1rem 0;
+}
+
+@media (max-width: 767px) {
+    /* mobile styles go here */
+}

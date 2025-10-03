@@ -1,0 +1,13 @@
+p,
+img {
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+#flex-section {
+    background-color: var(--clr-x-lt-1);
+    color: var(--clr-dk-1);
+}
+
+@media (min-width: 768px) {
+    /* desktop styles go here */
+}
