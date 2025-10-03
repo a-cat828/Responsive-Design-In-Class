@@ -26,5 +26,12 @@ body {
 }
 
 @media (max-width: 767px) {
-    /* mobile styles go here */
+    #grid-content {
+        display: flex;
+        flex-direction: column;
+    }
+    #flex-comtent {
+        justify-content: auto;
+         flex-direction: column;
+    }
 }
